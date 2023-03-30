@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="divWrapper">
+        <header class="header">
+            <h1>Calculadora</h1>
+        </header>
+
+        <div class="divCalculo">
+            <label class="digitar">Digite os números separando-os por vírgula. Para números decimais, digite as casas após ponto:</label><br>
+            <textarea placeholder="1,2,3,4,5" id="textareaNumeros"></textarea>
+            <br><button class="buttonCalcular">Calcular</button>
+        </div>
+    
+        <div class="divResultado">
+            <label class="labelResultado">Média aritmética:</label>
+            <br><input class="inputResultados" id="inputResultadosMedia" disabled></input>
+    
+            <br><label class="labelResultado">Mediana:</label>
+            <br><input class="inputResultados" id="inputResultadosMediana" disabled></input>
+    
+            <br><label class="labelResultado">Variância:</label>
+            <br><input class="inputResultados" id="inputResultadosVariancia" disabled></input>
+    
+            <br><label class="labelResultado">Desvio-padrão:</label>
+            <br><input class="inputResultados" id="inputResultadosDesvioPadrao" disabled></input>
+    
+            <br><label class="labelResultado">Moda:</label>
+            <br><input class="inputResultados" id="inputResultadosModa" disabled></input>
+        </div>
+    </div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
