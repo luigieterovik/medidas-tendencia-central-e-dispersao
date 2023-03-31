@@ -36,10 +36,12 @@ h1 {
 
 .buttonCalcular:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .buttonCalcular:active {
     opacity: 0.7;
+    cursor: pointer;
 }
 
 textarea {

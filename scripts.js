@@ -242,5 +242,8 @@ const script = () => {
 
 button.addEventListener('click', script)
 
-
-
+document.addEventListener('keypress', function (e) {
+    if (e.key === "Enter") {
+      script()
+    }
+  })
