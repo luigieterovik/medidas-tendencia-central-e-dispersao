@@ -8,14 +8,21 @@ const inputModa = document.getElementById('inputResultadosModa')
 const script = () => {
     const numeros = [] // Array números textarea
 
-    const textarea = document.getElementById('textareaNumeros').value
+    const quantidade = [] // Array quantidade de números
 
-    textarea.split(",").forEach(number => {
+    const textareaNumeros = document.getElementById('textareaNumeros').value
+
+    const textareaQuantidade = document.getElementById('textareaQuantidade').value
+
+    textareaNumeros.split(",").forEach(number => {
         let transformador = parseFloat(number)
         numeros.push(transformador)
     })
 
-    const quantidade = [] // Array quantidade de números
+    textareaQuantidade.split(",").forEach(number => {
+        let transformador = parseFloat(number)
+        quantidade.push(transformador)
+    })
 
     const numerosRepeticao = [] // Novo array para o caso de quantidade
 

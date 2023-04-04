@@ -51,15 +51,19 @@ textarea {
     width: 330px;
     height: 85px;
     resize: none;
-
 }
 
-.digitar {
+
+#labelNumeros {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     width: 330px;
+}
+
+.divQuantidade {
+    margin-top: 5%;
 }
 
 .divResultado {
@@ -81,9 +85,4 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-a {
-    position: relative;
-    left: 50%;
 }
