@@ -51,6 +51,7 @@ textarea {
     width: 330px;
     height: 85px;
     resize: none;
+    padding: 5px;
 }
 
 
