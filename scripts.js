@@ -15,13 +15,11 @@ const script = () => {
     const textareaQuantidade = document.getElementById('textareaQuantidade').value
 
     textareaNumeros.split(",").forEach(number => {
-        let transformador = parseFloat(number)
-        numeros.push(transformador)
+        numeros.push(parseFloat(number))
     })
 
     textareaQuantidade.split(",").forEach(number => {
-        let transformador = parseFloat(number)
-        quantidade.push(transformador)
+        quantidade.push(parseFloat(number))
     })
 
     const numerosRepeticao = [] // Novo array para o caso de quantidade
